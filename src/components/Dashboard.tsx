@@ -47,6 +47,7 @@ const Dashboard: React.FC = () => {
         {activeTab === 'consumer-behavior' && <ConsumerBehaviorSection />}
         {activeTab === 'platform-policies' && <PlatformPoliciesSection />}
         {activeTab === 'realtime-data' && <RealtimeDataSection />}
+        {activeTab === 'system-dynamics' && <SystemDynamicsSection />}
       </div>
     </div>
   );
