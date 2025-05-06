@@ -5,6 +5,7 @@ import FinancialCostsSection from './sections/FinancialCostsSection';
 import ConsumerBehaviorSection from './sections/ConsumerBehaviorSection';
 import PlatformPoliciesSection from './sections/PlatformPoliciesSection';
 import RealtimeDataSection from './sections/RealtimeDataSection';
+import SystemDynamicsSection from './sections/SystemDynamicsSection';
 
 const Dashboard: React.FC = () => {
   const [activeTab, setActiveTab] = useState('return-rates');
